@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is frontend app</h1>
+    <button id="apiButton">Call backend</button>
+    <script >
+        document.getElementById('apiButton').addEventListener('click', async () => {
+            try {
+                const response = await fetch('http://backend:3000');
+                const data = await response.text();
+                alert(data);
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        });
+    </script>
+</body>
+</html>
