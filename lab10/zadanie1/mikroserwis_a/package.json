@@ -1,0 +1,10 @@
+{
+  "name": "mikroserwis-a",
+  "version": "1.0.0",
+  "description": "API Gateway service",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1"
+  }
+}

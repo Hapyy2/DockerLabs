@@ -1,0 +1,9 @@
+{
+  "name": "mikroserwis-b",
+  "version": "1.0.0",
+  "description": "Simple API service",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
