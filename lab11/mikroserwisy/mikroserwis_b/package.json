@@ -1,0 +1,11 @@
+{
+  "name": "mikroserwis-b",
+  "version": "1.0.0",
+  "description": "Backend service that connects to database",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "pg": "^8.7.1"
+  }
+}
